@@ -16,5 +16,24 @@ function generateMarkdown(data) {
 
 `;
 }
+// readme should include:
+// # project title
+// ## descpription
+// ## Installation
+// ## Usage
+// ## Credits -different function
+// ## License -different function
+// ## Badges
+// ## Features
+// ## How to contribute (?)
+// ## Link to deployed repo
+// ## screenshot of deployed repo 
 
 module.exports = generateMarkdown;
+
+//  module.exports = {
+//   generateMarkdown,
+//   renderLicenseBadge,
+//   renderLicenseLink,
+//   renderLicenseSection,
+//  };

@@ -40,17 +40,16 @@ inquirer
       name: "test",
     },
     // {
-    //   type: "list", // checkbox or list
+    //   type: "list",
     //   message: "Select a license for your project:",
     //   name: "license",
     //   choices: [
-    //     "Storm",
-    //     "Superman",
-    //     "Batman",
-    //     "Green Lantern",
-    //     "Wonder Woman",
-    //     "Black Panther",
-    //     "Howard the Duck",
+    //     "none",
+    //     "option1",
+    //     "option2",
+    //     "option3",
+    //     "option4",
+    //     "option5",
     //   ],
     // },
     {

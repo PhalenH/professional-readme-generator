@@ -16,7 +16,7 @@ inquirer
     {
       type: "input",
       message:
-        "Provide a short description explaining the what, why, and how of your project.",
+        "Provide a short description explaining the what, why, and how of your project:",
       name: "description",
     },
     {
@@ -39,19 +39,29 @@ inquirer
       message: "Provide examples on how to run tests for your project:",
       name: "test",
     },
+    // {
+    //   type: "list", // checkbox or list
+    //   message: "Select a license for your project:",
+    //   name: "license",
+    //   choices: [
+    //     "Storm",
+    //     "Superman",
+    //     "Batman",
+    //     "Green Lantern",
+    //     "Wonder Woman",
+    //     "Black Panther",
+    //     "Howard the Duck",
+    //   ],
+    // },
     {
-      type: "list", // checkbox or list
-      message: "What superheros do you want on your team?",
-      name: "superhero",
-      choices: [
-        "Storm",
-        "Superman",
-        "Batman",
-        "Green Lantern",
-        "Wonder Woman",
-        "Black Panther",
-        "Howard the Duck",
-      ],
+      type: "input",
+      message: "Enter your GitHub username:",
+      name: "github",
+    },
+    {
+      type: "input",
+      message: "Enter your email:",
+      name: "email",
     },
   ])
   .then((response) => {

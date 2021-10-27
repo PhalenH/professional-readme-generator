@@ -1,21 +1,28 @@
-# README generator
+# README Generator
 
   ## Description: 
-  generates a readme
+  you know
+
+  ## Table of Contents
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Contributing](#Contributing)
+  - [Test Instructions](#Test Instructions)
+  - [Questions](#Questions)
 
   ## Installation: 
-  not much
+  not a lot
 
   ## Usage: 
-  self explanatory
+  maybe
 
   ## Contributing: 
-  nah
+  not
 
   ## Test Instructions: 
-  also nah
+  
 
-  ##Questions
-  - If you have any questions, email me at pchaze@yahoo.com
-  - Checkout my GitHub profile [here](https://github.com/PhalenH)
+  ## Questions
+  - If you have any questions, email me at phalenhazel@yahoo.com
+  - Checkout my GitHub profile [here](https://github.com/Phalenh)
 

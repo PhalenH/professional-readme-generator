@@ -2,6 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   return 
+  // this project is licensed under ${data.}
 }
 
 // TODO: Create a function that returns the license link
@@ -11,8 +12,8 @@ function renderLicenseLink(license) {}
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return `##License
-  ${data.license}`
+  return 
+  // this project is licensed under ${data.license}
 }
 
 // TODO: Create a function to generate markdown for README
@@ -47,6 +48,7 @@ function generateMarkdown(data) {
 
 `;
 }
+
 // readme should include:
 // # project title (y)
 // ## descpription (y)
@@ -56,7 +58,10 @@ function generateMarkdown(data) {
 // ## test instructions (y)
 // ## Credits -different function
 // ## License -different function, multiple so will have to choose
-// ## Badges
+
+// ## Badges - there should be a badge for every license
+// there's a badge for everything on github. look up list of badges
+
 // ## Link to deployed repo
 // ## screenshot of deployed repo 
 

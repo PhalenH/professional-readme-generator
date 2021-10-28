@@ -24,6 +24,8 @@ inquirer
       message: "What are the steps required to install your project?",
       name: "installation",
     },
+    // can use a recursion loop, will loop until user types in done or hits enter with an empty string
+    // have to create a function for recursion to work or it won't run
     {
       type: "input",
       message: "Provide instructions and examples for use:",
@@ -39,19 +41,12 @@ inquirer
       message: "Provide examples on how to run tests for your project:",
       name: "test",
     },
-    // {
-    //   type: "list",
-    //   message: "Select a license for your project:",
-    //   name: "license",
-    //   choices: [
-    //     "none",
-    //     "option1",
-    //     "option2",
-    //     "option3",
-    //     "option4",
-    //     "option5",
-    //   ],
-    // },
+    {
+      type: "list",
+      message: "Select a license for your project:",
+      name: "license",
+      choices: ["none", "Apache", "MIT", "GNU", "ISC", "SIL Open Font"],
+    },
     {
       type: "input",
       message: "Enter your GitHub username:",

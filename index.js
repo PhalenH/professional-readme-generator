@@ -15,10 +15,10 @@ inquirer
     },
     {
       type: "input",
-      message:
-        "Provide a short description explaining the what, why, and how of your project:",
+      message: "Provide a short description explaining the what, why, and how of your project:",
       name: "description",
     },
+    
     {
       type: "input",
       message: "What are the steps required to install your project?",

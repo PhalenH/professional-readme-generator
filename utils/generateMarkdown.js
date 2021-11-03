@@ -57,7 +57,7 @@ function generateMarkdown(data) {
 // ## How to contribute (y)
 // ## test instructions (y)
 // ## Credits -different function
-// ## License -different function, multiple so will have to choose
+// ## License -different function, multiple so will have to choose (
 
 // ## Badges - there should be a badge for every license
 // there's a badge for everything on github. look up list of badges

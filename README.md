@@ -7,7 +7,7 @@
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [Contributing](#Contributing)
-  - [Test Instructions](#Test)
+  - [Test Instructions](#Test-Instructions)
   - [Questions](#Questions)
 
   ## Installation: 
@@ -19,7 +19,7 @@
   ## Contributing: 
   There a no plans for public contribution at this time.
 
-  ## Test Instructions: 
+  ## Test-Instructions: 
   A user can run a terminal and type "node index.js" and then test out the template by doing a mock answering of each prompt to see what the end result will look like.
 
   ## Questions

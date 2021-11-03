@@ -18,7 +18,7 @@ inquirer
       message: "Provide a short description explaining the what, why, and how of your project:",
       name: "description",
     },
-    
+
     {
       type: "input",
       message: "What are the steps required to install your project?",
@@ -61,7 +61,7 @@ inquirer
   .then((response) => {
     console.log(response);
 
-    fs.writeFileSync("README.md", generateMarkdown(response));
+    fs.writeFileSync("UserREADME.md", generateMarkdown(response));
   });
 
 // TODO: Create a function to write README file

@@ -1,8 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return 
-  // this project is licensed under ${data.}
+  return;
 }
 
 // TODO: Create a function that returns the license link
@@ -12,7 +11,7 @@ function renderLicenseLink(license) {}
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return 
+  return;
   // this project is licensed under ${data.license}
 }
 
@@ -20,12 +19,16 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
 
+  ## Licensing:
+  ![license]()
+
   ## Description: 
   ${data.description}
 
   ## Table of Contents
   - [Installation](#Installation)
   - [Usage](#Usage)
+  - [License](#License)
   - [Contributing](#Contributing)
   - [Test Instructions](#Test Instructions)
   - [Questions](#Questions)
@@ -35,6 +38,9 @@ function generateMarkdown(data) {
 
   ## Usage: 
   ${data.usage}
+
+  ## License
+  This application is covered under: ${data.license} license.
 
   ## Contributing: 
   ${data.contributing}
@@ -63,6 +69,6 @@ function generateMarkdown(data) {
 // there's a badge for everything on github. look up list of badges
 
 // ## Link to deployed repo
-// ## screenshot of deployed repo 
+// ## screenshot of deployed repo
 
 module.exports = generateMarkdown;

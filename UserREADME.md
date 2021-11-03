@@ -11,7 +11,7 @@
   - [Usage](#Usage)
   - [License](#License)
   - [Contributing](#Contributing)
-  - [Test Instructions](#Test Instructions)
+  - [Test Instructions](#Test-Instructions)
   - [Questions](#Questions)
 
   ## Installation: 
@@ -26,7 +26,7 @@
   ## Contributing: 
   n/a
 
-  ## Test Instructions: 
+  ## Test-Instructions: 
   n/a
 
   ## Questions

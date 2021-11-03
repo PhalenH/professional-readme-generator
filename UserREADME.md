@@ -1,10 +1,10 @@
-# Pro README generator
+# Professional README Generator
 
   ## Licensing:
   ![license](https://img.shields.io/badge/License-MIT-blue.svg)
 
   ## Description: 
-  Creats a readme from user input from the command line
+  This creates a professional README
 
   ## Table of Contents
   - [Installation](#Installation)
@@ -15,10 +15,10 @@
   - [Questions](#Questions)
 
   ## Installation: 
-  clone github repo to local machine
+  Download from github
 
   ## Usage: 
-  open terminal, type 'node index.js'
+  Install the inquirer package and then user the terminal to access the command line
 
   ## License
   MIT

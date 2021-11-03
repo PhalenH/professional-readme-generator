@@ -30,7 +30,7 @@ function generateMarkdown(data) {
   - [Usage](#Usage)
   - [License](#License)
   - [Contributing](#Contributing)
-  - [Test Instructions](#Test Instructions)
+  - [Test Instructions](#Test-Instructions)
   - [Questions](#Questions)
 
   ## Installation: 
@@ -45,7 +45,7 @@ function generateMarkdown(data) {
   ## Contributing: 
   ${data.contributing}
 
-  ## Test Instructions: 
+  ## Test-Instructions: 
   ${data.test}
 
   ## Questions

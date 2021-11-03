@@ -27,6 +27,7 @@
   - [Questions](#Questions)
 
   ## Video
+  [Professional README Generator Walkthrough](https://youtu.be/UxuMZIALJ80)
 
   ## Installation: 
   - Download the template through GitHub.

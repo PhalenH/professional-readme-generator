@@ -72,7 +72,7 @@ inquirer
         if (input) {
           return true;
         } else {
-          console.log("Please provide guidelines or write 'N/A'!");
+          console.log("Please provide guidelines or type 'N/A'!");
           return false;
         }
       },
@@ -85,7 +85,7 @@ inquirer
         if (input) {
           return true;
         } else {
-          console.log("Please provide examples or write 'N/A'!");
+          console.log("Please provide examples or type 'N/A'!");
           return false;
         }
       },

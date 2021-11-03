@@ -20,7 +20,7 @@ function generateMarkdown(data) {
   return `# ${data.projectTitle}
 
   ## Licensing:
-  ![license]()
+  ![license](https://img.shields.io/badge/License-${data.license}-blue.svg)
 
   ## Description: 
   ${data.description}
@@ -40,7 +40,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  This application is covered under: ${data.license} license.
+  ${data.license}
 
   ## Contributing: 
   ${data.contributing}

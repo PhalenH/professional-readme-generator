@@ -49,8 +49,6 @@ inquirer
         }
       },
     },
-    // can use a recursion loop, will loop until user types in done or hits enter with an empty string
-    // have to create a function for recursion to work or it won't run
     {
       type: "input",
       message: "Provide instructions and examples for use:",
